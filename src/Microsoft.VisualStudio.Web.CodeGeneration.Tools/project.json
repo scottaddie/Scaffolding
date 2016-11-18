@@ -1,5 +1,5 @@
 {
-  "version": "1.1.0-*",
+  "version": "1.1.0-preview4-final",
   "buildOptions": {
     "keyFile": "../../tools/Key.snk",
     "outputName": "dotnet-aspnet-codegenerator",
@@ -25,10 +25,10 @@
   "dependencies": {
     "Microsoft.DotNet.InternalAbstractions": "1.0.0",
     "Microsoft.Extensions.DotnetToolDispatcher.Sources": {
-      "version": "1.1.0-*",
+      "version": "1.1.0-rtm-22752",
       "type": "build"
     },
-    "Microsoft.VisualStudio.Web.CodeGeneration": "1.1.0-*"
+    "Microsoft.VisualStudio.Web.CodeGeneration": "1.1.0-preview4-final"
   },
   "frameworks": {
     "net451": {},
@@ -39,7 +39,7 @@
       ],
       "dependencies": {
         "Microsoft.NETCore.App": {
-          "version": "1.1.0-*",
+          "version": "1.1.0",
           "type": "platform"
         }
       }
